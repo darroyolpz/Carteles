@@ -23,7 +23,7 @@ if not os.path.exists(pathDestino):
     os.makedirs(pathDestino)
 
 #Input a traves de un archivo de Excel
-excel = "SEGUIMIENTO_PEDIDOS.xlsm"
+excel = "SEGUIMIENTO_PEDIDOS_v04.xlsm"
 df = pd.read_excel(excel, sheet_name= "AHU", skiprows=1)
 
 #Plantilla Excel de hoja de observaciones.
